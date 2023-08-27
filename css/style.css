@@ -1,0 +1,437 @@
+
+/*Font */
+@font-face {
+    font-family:Montserrat-Bold ;
+    src: url(../fonts/static/Montserrat-Bold.ttf);
+}
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;  
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Montserrat-Bold ;
+}
+/* universal screen padding*/
+.screenpadding{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*Body*/
+body{
+    margin: 0;
+}
+
+#navbar{
+    
+    background-color: #2c2c2c;
+    color: white;
+    
+}
+/*Logo*/
+#logo {
+    position: absolute;
+
+}
+.fa-solid{
+    float: right;
+    padding-right: 40px;
+    margin-top: 45px;
+}
+
+/*Nav bar*/
+#navbar{
+    
+    padding: 20px;
+    padding-left: 300px;  
+}
+
+#navbar ul li{
+   
+    display: inline;
+    margin: 20px;    
+    padding: 20px;
+    font-size: 10pw;
+    text-transform: uppercase;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#navbar ul li:hover{
+    background-color: grey;
+    
+}
+
+/*Poster*/
+#poster{
+    background-image: url(/images/MainPic.jpg);
+    height: 600px;
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: white;
+    flex-direction: column;
+
+}
+#poster-content{
+    margin-top: 25%;
+}
+#poster-content p{
+    font-size: 24px;
+}
+#poster-content h1{
+    font-size: 48px;
+
+}
+#poster-content button{
+    
+
+    background-color: #ff6309;
+    border: none;
+    border-radius: 1.5px;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    padding: 10px 50px;
+}
+#poster-content button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Sub categories section*/
+#toursection{
+    background-image:url(/images/Shapenew.png);
+    /*background-image: url(/images/Shape.png) ;
+    background-repeat: no-repeat;
+    background-position:0 ;*/
+    background-repeat: no-repeat;
+    background-color: #ff6309;
+    
+    height:750px;
+   
+    
+   
+}
+.sub-section{
+    
+    box-sizing: border-box;
+    width: 29.33%;
+    float: left;
+    text-align: center;
+    color: white;
+    background-color: #2c2c2c;
+}
+.sub-section img{
+    width: 100%;
+}
+#sec-img{
+    margin-left: 70px;
+}
+#last-img{
+    float: right;
+  
+}
+  
+
+/*Center content of sub sections*/
+.center-content{
+    /*border: solid;*/
+    font-weight: normal;
+    font-size: 20px;
+    height: fit-content;
+    width: 60%;
+    padding: 2%;
+    margin: 0px 20%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align-last:center;
+    color: white;
+
+}
+
+
+
+
+/*Pricing section*/
+#pricingsection{
+    
+    background-image:url(/images/Shapenew1.png);
+    height: 700px;
+    
+}
+.packages{
+    width: 29.33%;
+    
+    float: left;
+    color: white;
+    margin-top:10px;
+    padding:50px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ff6309;
+       
+}
+.packages button{
+    background-color: #2c2c2c;
+    border: none;
+    border-radius: 5.5%;
+    padding: 10px 100px;
+    text-align: center;
+    color: white;
+}
+#secsch{
+    margin-left: 70px;
+}
+    
+#lastsch{
+    float: right;
+    
+}
+
+.packages button a{
+    text-decoration: none;
+    color: white;
+}
+#fourthcontent button a{
+    text-decoration: none;
+    color: #fdfdfd;
+}
+#fifthcontent button a{
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+/*Amzing dance content*/
+.fourthsection{
+    box-sizing: border-box;
+    height: 999px;
+
+   
+    
+    background-image: url(/images/Shapenew3.png);
+   
+    color: white;
+    
+
+}
+#fourthcontent{
+    float: right;
+    width: 30%;
+    
+    
+    margin-top: 400px;
+
+}
+#fourthcontent p{
+    font-size: 20px;
+}
+.fourthsection img{
+    height: 100%;
+}
+.fourthsection button{
+    background-color: #2c2c2c;
+    border: none;
+    border-radius: 5.5%;
+    padding: 10px 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.fifthSection{
+    overflow: auto;
+    
+    color: white;
+    background-image: url(/images/Shapenew4.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    
+    
+    
+}
+.fifthSection button{
+    background-color: #2c2c2c;
+    border: none;
+    border-radius: 5.5%;
+    padding: 10px 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+#fifthcontent{
+    
+    width: 400px;
+    font-size: 26px;
+    float: left;
+    margin-top: 300px;
+}
+
+#pic3{
+    float: right;
+    width: 46%;
+
+}
+
+/*statisitics section*/
+#statistics{
+    background-color: #2c2c2c;
+    height: 500px;
+    
+    text-align: center;
+}
+.section33{
+    width:29.33%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    float: left;
+    
+}
+.section33 p{
+    font-size: 20px;
+    margin-top: 0;
+    
+}
+#Active{
+    margin-left: 50px;
+}
+#Community{
+    float: right;
+
+}    
+#textcontent{
+    background-image: url(/images/Untitleddesign.png);
+    height: 1000px;
+    background-size: cover;
+    display: flex;
+    
+    text-align: center;
+    color: white;
+    flex-direction: column;
+
+}
+#content{
+    margin-top: 400px;
+    font-size: 26px;
+    width: 70%;
+    align-self:center;
+}
+ 
+/*form section*/
+#formsection{
+    background-image: url(/images/shapene5.png);
+    background-repeat:no-repeat;
+    background-position: 0;
+
+    text-align: center;
+    background-color: #ff6309;
+    overflow: auto;
+    color: white;
+    height: 400px;
+    padding-top: 100px;
+    font-size: 26px;
+    
+
+}
+#widthsec{
+    width:80%;
+    
+    margin-left: 100px;
+}
+#formsection input[type="text"]{
+    padding:10px 20px;
+    border: none;
+    width: 40%;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+#formsection input[type="submit"]{
+    padding:10px 20px;
+    border: none;
+    background-color: #2c2c2c;
+    color: white;
+    width: 10%;
+    font-size: 20px;
+    box-sizing: border-box;
+
+    
+    
+}
+/*footer*/
+.fa-brands{
+    background-color: #fdfdfd;
+    color: #2c2c2c;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    
+}
+.fa-facebook-f{
+    padding:10px;
+    margin: 5px;
+}
+.fa-whatsapp{
+    padding:10px;
+    margin: 5px;
+
+}
+.fa-instagram{
+    padding: 10px;
+    margin: 5px;
+    
+}
+.fa-twitter{
+    padding: 10px;
+    margin:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
